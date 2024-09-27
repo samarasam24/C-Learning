@@ -1,0 +1,15 @@
+D:\C# learning\LearningPhaseOne\bin\Debug\net6.0\LearningPhaseOne.exe
+D:\C# learning\LearningPhaseOne\bin\Debug\net6.0\LearningPhaseOne.deps.json
+D:\C# learning\LearningPhaseOne\bin\Debug\net6.0\LearningPhaseOne.runtimeconfig.json
+D:\C# learning\LearningPhaseOne\bin\Debug\net6.0\LearningPhaseOne.dll
+D:\C# learning\LearningPhaseOne\bin\Debug\net6.0\LearningPhaseOne.pdb
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.csproj.AssemblyReference.cache
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.AssemblyInfoInputs.cache
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.AssemblyInfo.cs
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.csproj.CoreCompileInputs.cache
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.dll
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\refint\LearningPhaseOne.dll
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.pdb
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\LearningPhaseOne.genruntimeconfig.cache
+D:\C# learning\LearningPhaseOne\obj\Debug\net6.0\ref\LearningPhaseOne.dll
