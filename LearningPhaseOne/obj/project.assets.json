@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
+      "projectUniqueName": "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
       "projectName": "LearningPhaseOne",
-      "projectPath": "D:\\C# learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
+      "projectPath": "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
       "packagesPath": "C:\\Users\\SAMARASAM\\.nuget\\packages\\",
-      "outputPath": "D:\\C# learning\\LearningPhaseOne\\obj\\",
+      "outputPath": "D:\\C#-learning\\LearningPhaseOne\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SAMARASAM\\AppData\\Roaming\\NuGet\\NuGet.Config"

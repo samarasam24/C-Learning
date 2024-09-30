@@ -182,3 +182,120 @@
 
 // string ifElseExp = isTrue ? "It's true" : "It's false";
 // Console.WriteLine(ifElseExp);
+
+
+// switch
+// int date = 15;
+
+// switch(date){
+//     case 2 :
+//         Console.WriteLine(2);
+//         break;
+//     case 15:
+//         Console.WriteLine(15);
+//         break;
+//     default:
+//         break;
+// };
+
+// while loop 
+// bool isTrue = true;
+// int i = 0;
+// while(isTrue){
+//     Console.WriteLine(i);
+//     if(i == 3){
+//         isTrue = false;
+//     };
+//     ++i;
+// };
+
+// do-while
+// bool isTrue = false;
+// do{
+//  Console.WriteLine(1);
+// } while(isTrue);
+
+// for loop
+
+// for( int i = 0; i <= 10; i++){
+//     Console.WriteLine(i);
+// };
+
+// foreach
+// string[] students = {"revi","kavi","guvi","kevi","paavi"};
+
+// foreach ( string student in students ) {
+//     Console.WriteLine(student);
+// };
+
+// break 
+
+// for( int i = 0; i < 10; i++){
+//     Console.WriteLine(i);
+//     if(i == 5){
+//         Console.WriteLine(i + " if");
+//         break;
+//     };
+// };
+
+// continue
+// for( int i = 0; i < 10; i++){
+
+//     if( i == 6){
+//         continue;
+//     };
+
+//     Console.WriteLine(i);
+// };
+
+// array
+
+// string[] cars = {"BMW","Toyota","Skoda","HM"};
+// Console.WriteLine(cars[0]);
+
+// int[] count = { 24,2,4,6,6,6};
+// Console.WriteLine(count[0]);
+
+// string[] cars = new string[4] { "BMW", "HM" , "Toyota" , "Skoda"};
+// Console.WriteLine(cars[0]);
+// cars[3] = "Maruti";
+// Console.WriteLine(cars[3]); 
+
+// loop through an array
+
+// string[] cars = {"BMW","HM","Toyota","Mercedes"};
+// for(int i = 0; i < cars.Length; i++){
+//     Console.WriteLine(cars[i]);
+// };
+
+// foreach( string car in cars ) {
+//     Console.WriteLine(car);
+// };
+
+// sort
+// int[] nums = {10,20,30,4,5,6};
+// char[] letters = {'z','d','f','m','b'};
+// Array.Sort(nums);
+// Array.Sort(letters);
+// Console.WriteLine(nums[0]);
+// Console.WriteLine(letters[0]);
+// Console.WriteLine(nums.Max());
+// Console.WriteLine(nums.Min());
+// Console.WriteLine(nums.Sum ());
+
+int[,] nums2D = { {1,2,3,4} , {4,5,6,7}};
+
+// Console.WriteLine(nums2D[0,2]);
+// nums2D[0,2] = 7;
+// Console.WriteLine(nums2D[1,2]);
+// Console.WriteLine(nums2D[0,2]);
+
+// foreach( int i in  nums2D){
+//     Console.WriteLine(i);
+// };
+
+// for( int i = 0; i < nums2D.GetLength(0); i++){ 
+//     for( int j = 0; j < nums2D.GetLength(1); j++){
+//         Console.WriteLine(nums2D[i,j]);
+//     };
+// };
