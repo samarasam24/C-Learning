@@ -283,7 +283,7 @@
 // Console.WriteLine(nums.Min());
 // Console.WriteLine(nums.Sum ());
 
-int[,] nums2D = { {1,2,3,4} , {4,5,6,7}};
+// int[,] nums2D = { {1,2,3,4} , {4,5,6,7}};
 
 // Console.WriteLine(nums2D[0,2]);
 // nums2D[0,2] = 7;
@@ -294,8 +294,44 @@ int[,] nums2D = { {1,2,3,4} , {4,5,6,7}};
 //     Console.WriteLine(i);
 // };
 
-// for( int i = 0; i < nums2D.GetLength(0); i++){ 
-//     for( int j = 0; j < nums2D.GetLength(1); j++){
+// for( int i = 0; i < nums2D.GetLength(0); i++){  //outer loop for rows
+//     for( int j = 0; j < nums2D.GetLength(1); j++){ //inner loop for columns
 //         Console.WriteLine(nums2D[i,j]);
 //     };
 // };
+
+// method
+
+class Program {
+     static void Main(){
+        MyFirstClass("Revi","kevi");
+        MySecondClass();
+        Console.WriteLine(MyThirdClass());
+        MyFourthClass( child1 : "First Child", child2 : "Second Child" );
+         Console.WriteLine(AddTwo(2,2));
+         Console.WriteLine(AddTwo(2.5,99.9));
+     }
+    //  parameters and arguments
+    static void MyFirstClass( string str, string str2){
+        Console.WriteLine($"{str}  {str2}");
+    }
+    // default argument
+    static void MySecondClass(string str =  "guvi"){
+        Console.WriteLine(str);
+    }
+    // return values
+    static string MyThirdClass() {
+        return "Yohoho!!";
+    }
+    // named arguments
+    static void MyFourthClass(string child2, string child1){
+        Console.WriteLine($"{child1} {child2}");
+    }
+    // method overloading
+    static int AddTwo( int x, int y){
+        return x + y;
+    }
+    static double AddTwo( double x, double y){
+        return x + y;
+    }
+};
