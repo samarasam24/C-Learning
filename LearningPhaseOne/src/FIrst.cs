@@ -302,36 +302,92 @@
 
 // method
 
-class Program {
-     static void Main(){
-        MyFirstClass("Revi","kevi");
-        MySecondClass();
-        Console.WriteLine(MyThirdClass());
-        MyFourthClass( child1 : "First Child", child2 : "Second Child" );
-         Console.WriteLine(AddTwo(2,2));
-         Console.WriteLine(AddTwo(2.5,99.9));
-     }
-    //  parameters and arguments
-    static void MyFirstClass( string str, string str2){
-        Console.WriteLine($"{str}  {str2}");
-    }
-    // default argument
-    static void MySecondClass(string str =  "guvi"){
-        Console.WriteLine(str);
-    }
-    // return values
-    static string MyThirdClass() {
-        return "Yohoho!!";
-    }
-    // named arguments
-    static void MyFourthClass(string child2, string child1){
-        Console.WriteLine($"{child1} {child2}");
-    }
-    // method overloading
-    static int AddTwo( int x, int y){
-        return x + y;
-    }
-    static double AddTwo( double x, double y){
-        return x + y;
-    }
-};
+// class Program {
+//      static void Main(){
+//         MyFirstClass("Revi","kevi");
+//         MySecondClass();
+//         Console.WriteLine(MyThirdClass());
+//         MyFourthClass( child1 : "First Child", child2 : "Second Child" );
+//          Console.WriteLine(AddTwo(2,2));
+//          Console.WriteLine(AddTwo(2.5,99.9));
+//      }
+//     //  parameters and arguments
+//     static void MyFirstClass( string str, string str2){
+//         Console.WriteLine($"{str}  {str2}");
+//     }
+//     // default argument
+//     static void MySecondClass(string str =  "guvi"){
+//         Console.WriteLine(str);
+//     }
+//     // return values
+//     static string MyThirdClass() {
+//         return "Yohoho!!";
+//     }
+//     // named arguments
+//     static void MyFourthClass(string child2, string child1){
+//         Console.WriteLine($"{child1} {child2}");
+//     }
+//     // method overloading
+//     static int AddTwo( int x, int y){
+//         return x + y;
+//     }
+//     static double AddTwo( double x, double y){
+//         return x + y;
+//     }
+// };
+
+// classes and objects
+
+// class Car{
+//     string color = "red";
+//     string brand = "volvo";
+
+//     public void Second(){
+//         Console.WriteLine("Helloo!");
+//     }
+
+//     static void Main(){
+//         Car carDetails = new Car();
+//         Console.WriteLine(carDetails.color);
+//         Console.WriteLine(carDetails.brand);
+//         carDetails.Second();
+//     }
+// };
+
+// use multiple classes
+// class Car {
+
+//     public string brand = "Toyota" ;
+//     public int year;
+//     public void Speed(){
+//         Console.WriteLine("Full Speed Ahead!!!");
+//         Console.WriteLine(year);
+//     }
+// };
+
+// class Function {
+//     static void Main(){
+
+//         Car Deatails = new Car();
+//         Deatails.year = 2000;
+//         Deatails.Speed();
+//     }
+// };
+
+// constructors
+// class Car{
+
+//     public string brand;
+//     public int year;
+
+//     public Car( int carYear, string carBrand){
+//         brand = carBrand;
+//         year = carYear;
+//     }
+
+//     static void Main()
+//     {
+//         Car Ford = new Car( 1969, "Mustang");
+//         Console.WriteLine($"{Ford.brand} {Ford.year}" );
+//     }
+// };

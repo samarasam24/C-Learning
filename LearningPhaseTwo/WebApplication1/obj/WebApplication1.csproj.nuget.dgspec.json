@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj": {}
+    "D:\\C#-learning\\LearningPhaseTwo\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj": {
+    "D:\\C#-learning\\LearningPhaseTwo\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
-        "projectName": "LearningPhaseOne",
-        "projectPath": "D:\\C#-learning\\LearningPhaseOne\\LearningPhaseOne.csproj",
+        "projectUniqueName": "D:\\C#-learning\\LearningPhaseTwo\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "D:\\C#-learning\\LearningPhaseTwo\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\SAMARASAM\\.nuget\\packages\\",
-        "outputPath": "D:\\C#-learning\\LearningPhaseOne\\obj\\",
+        "outputPath": "D:\\C#-learning\\LearningPhaseTwo\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SAMARASAM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,6 +55,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
