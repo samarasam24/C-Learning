@@ -391,3 +391,71 @@
 //         Console.WriteLine($"{Ford.brand} {Ford.year}" );
 //     }
 // };
+
+// access modifiers
+// public
+// private
+// internal 
+// protected
+
+// class Car{
+
+//     private int model = 2000; //this is private modifier it's only accessed inside this class
+
+//     static void Main(){
+//         Car Bmw = new Car();
+//         Console.WriteLine(Bmw.model);
+//     }
+// };
+
+// public modifier
+
+// class Car{
+
+//     public string brand;  //this is a public modifier it can be accessed in other classess
+
+//     public Car( string brandName){
+//         brand = brandName;
+//     }
+// };
+
+// class ProgramOrMethod{
+
+//     static void Main(){
+
+//         Car Bmw = new Car("BMW");
+
+//         Console.WriteLine(Bmw.brand); 
+//     }
+// }
+
+// Properties (Get and Set)
+
+// class Car{
+
+    // private int chassisNum;
+    // public int ChassisNum {
+    //     get { return chassisNum; }
+    //     set { chassisNum = value; }
+    // }
+
+    //automatic properties (short hand)
+//     public int ChassisNum{
+//         get;
+//         set;
+//     }
+
+// };
+
+// class CarBrand{
+
+//     static void Main(){
+
+//         Car Bmw = new Car();
+
+//         Bmw.ChassisNum = 73846;
+
+//         Console.WriteLine(Bmw.ChassisNum);
+//     }
+// };
+
