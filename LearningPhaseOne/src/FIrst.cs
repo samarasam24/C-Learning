@@ -461,65 +461,27 @@
 
 
 // inheritnace
-// class Car{
+class Car{
 
-//     public int year = 2000;
-//     public void Honk(){
-//         Console.WriteLine("Move It!!");
-//     }
-// }
-
-// class Ford : Car{
-
-//     public string brand = "Ford";
-// }
-
-//  class Progran{
-
-//     static void Main(){
-
-//         Ford fordCar = new Ford();
-
-//         fordCar.Honk();
-//     }
-
-//  };
-
-// polymorphism
-
-class Car {
-
-    public virtual void CarBrand(){
-
-        Console.WriteLine("There is no Car Now");
-    }
-};
-
-class Bmw : Car{
-
-    public override void CarBrand(){
-        Console.WriteLine("It's a BMW");
+    public int year = 2000;
+    public void Honk(){
+        Console.WriteLine("Move It!!");
     }
 }
 
-class Ford : Car {
+class Ford : Car{
 
-    public override void CarBrand(){
-        Console.WriteLine("It's a Ford");
-    }
+    public string brand = "Ford";
 }
 
-
-class Program{
+ class Progran{
 
     static void Main(){
 
-        Car PalinCar = new Car();
-        Ford FordCar = new Ford();
-        Bmw BmwCar = new Bmw();
+        Ford fordCar = new Ford();
 
-        PalinCar.CarBrand();
-        FordCar.CarBrand();
-        BmwCar.CarBrand();
+        fordCar.Honk();
     }
-}
+
+ };
+
