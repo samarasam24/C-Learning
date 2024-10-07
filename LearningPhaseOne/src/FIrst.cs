@@ -525,28 +525,59 @@
 // }
 
 // abstraction
-abstract class Car{
+// abstract class Car{
 
-    public abstract void brand();
-    public void Honk(){
-        Console.WriteLine("Car Honk");
-    }
+//     public abstract void brand();
+//     public void Honk(){
+//         Console.WriteLine("Car Honk");
+//     }
+// }
+
+// class  Ford : Car {
+//     public override void brand(){
+
+//         Console.WriteLine("Ford");
+//     }
+// }
+
+// class Program {
+
+//     static void Main(){
+
+//         Ford ford = new Ford();
+
+//         ford.brand();
+//         ford.Honk();
+//     }
+// }
+
+// interface
+interface Car{
+    void Carhonk();
 }
 
-class  Ford : Car {
-    public override void brand(){
-
-        Console.WriteLine("Ford");
-    }
+interface Bike{
+    void Bikehonk();
 }
 
-class Program {
+class Vehicle : Car, Bike{
+     
+     public void Carhonk(){
+        Console.WriteLine("Car");
+     }
+
+     public void Bikehonk(){
+        Console.WriteLine("Bike");
+     }
+}
+
+class Program{
 
     static void Main(){
 
-        Ford ford = new Ford();
+        Vehicle motors = new Vehicle();
 
-        ford.brand();
-        ford.Honk();
+        motors.Bikehonk();
+        motors.Carhonk();
     }
 }
