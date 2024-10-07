@@ -487,39 +487,66 @@
 
 
 // polymorphism
-class Car {
+// class Car {
 
-    public virtual void CarBrand(){
+//     public virtual void CarBrand(){
 
-        Console.WriteLine("There is no Car Now");
-    }
-};
+//         Console.WriteLine("There is no Car Now");
+//     }
+// };
 
-class Bmw : Car{
+// class Bmw : Car{
 
-    public override void CarBrand(){
-        Console.WriteLine("It's a BMW");
+//     public override void CarBrand(){
+//         Console.WriteLine("It's a BMW");
+//     }
+// }
+
+// class Ford : Car {
+
+//     public override void CarBrand(){
+//         Console.WriteLine("It's a Ford");
+//     }
+// }
+
+
+// class Program{
+
+//     static void Main(){
+
+//         Car PalinCar = new Car();
+//         Ford FordCar = new Ford();
+//         Bmw BmwCar = new Bmw();
+
+//         PalinCar.CarBrand();
+//         FordCar.CarBrand();
+//         BmwCar.CarBrand();
+//     }
+// }
+
+// abstraction
+abstract class Car{
+
+    public abstract void brand();
+    public void Honk(){
+        Console.WriteLine("Car Honk");
     }
 }
 
-class Ford : Car {
+class  Ford : Car {
+    public override void brand(){
 
-    public override void CarBrand(){
-        Console.WriteLine("It's a Ford");
+        Console.WriteLine("Ford");
     }
 }
 
-
-class Program{
+class Program {
 
     static void Main(){
 
-        Car PalinCar = new Car();
-        Ford FordCar = new Ford();
-        Bmw BmwCar = new Bmw();
+        Ford ford = new Ford();
 
-        PalinCar.CarBrand();
-        FordCar.CarBrand();
-        BmwCar.CarBrand();
+        ford.brand();
+        ford.Honk();
     }
 }
