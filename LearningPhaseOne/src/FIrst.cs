@@ -584,23 +584,35 @@
 
 // enum
 
-class Program{
-    enum Months{
-        April,
-        March,
-        May = 20
-    }
+// class Program{
+//     enum Months{
+//         April,
+//         March,
+//         May = 20
+//     }
 
-    static void Main(){
+//     static void Main(){
 
-        Months myVar =  Months.April;
-        Console.WriteLine(myVar);
+//         Months myVar =  Months.April;
+//         Console.WriteLine(myVar);
 
-        int myVarNum = (int) Months.April;
-        Console.WriteLine(myVarNum);
+//         int myVarNum = (int) Months.April;
+//         Console.WriteLine(myVarNum);
 
-        Months may = Months.May;
-        Console.WriteLine(may);
+//         Months may = Months.May;
+//         Console.WriteLine(may);
 
-    }
-}
+//     }
+// }
+
+// files
+
+using System.IO;
+
+string writeText = "Hello!!";
+
+File.WriteAllText("FileName.txt",writeText);
+
+string readText = File.ReadAllText("FileName.txt");
+
+Console.WriteLine(readText);
