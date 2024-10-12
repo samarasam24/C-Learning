@@ -552,32 +552,55 @@
 // }
 
 // interface
-interface Car{
-    void Carhonk();
-}
+// interface Car{
+//     void Carhonk();
+// }
 
-interface Bike{
-    void Bikehonk();
-}
+// interface Bike{
+//     void Bikehonk();
+// }
 
-class Vehicle : Car, Bike{
+// class Vehicle : Car, Bike{
      
-     public void Carhonk(){
-        Console.WriteLine("Car");
-     }
+//      public void Carhonk(){
+//         Console.WriteLine("Car");
+//      }
 
-     public void Bikehonk(){
-        Console.WriteLine("Bike");
-     }
-}
+//      public void Bikehonk(){
+//         Console.WriteLine("Bike");
+//      }
+// }
+
+// class Program{
+
+//     static void Main(){
+
+//         Vehicle motors = new Vehicle();
+
+//         motors.Bikehonk();
+//         motors.Carhonk();
+//     }
+// }
+
+// enum
 
 class Program{
+    enum Months{
+        April,
+        March,
+        May = 20
+    }
 
     static void Main(){
 
-        Vehicle motors = new Vehicle();
+        Months myVar =  Months.April;
+        Console.WriteLine(myVar);
 
-        motors.Bikehonk();
-        motors.Carhonk();
+        int myVarNum = (int) Months.April;
+        Console.WriteLine(myVarNum);
+
+        Months may = Months.May;
+        Console.WriteLine(may);
+
     }
 }
