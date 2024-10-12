@@ -607,12 +607,24 @@
 
 // files
 
-using System.IO;
+// using System.IO;
 
-string writeText = "Hello!!";
+// string writeText = "Hello!!";
 
-File.WriteAllText("FileName.txt",writeText);
+// File.WriteAllText("FileName.txt",writeText);
 
-string readText = File.ReadAllText("FileName.txt");
+// string readText = File.ReadAllText("FileName.txt");
 
-Console.WriteLine(readText);
+// Console.WriteLine(readText);
+
+// exceptions
+
+try{
+  int[] myNumbers = {1, 2, 3};
+  Console.WriteLine(myNumbers[10]);
+}
+catch (Exception e){
+  Console.WriteLine(e.Message);
+} finally{
+  Console.WriteLine("The 'try catch' is finished.");
+}
